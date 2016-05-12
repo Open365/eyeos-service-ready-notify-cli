@@ -1,0 +1,23 @@
+{
+  "name": "eyeos-service-ready-notify-cli",
+  "version": "0.0.11",
+  "description": "a cli for the same name library",
+  "main": "src/cli.js",
+  "author": "eyeOS",
+  "homepage": "http://www.eyeos.com/",
+  "bin": {
+    "eyeos-service-ready-notify-cli": "src/cli.js"
+  },
+  "dependencies": {
+    "eyeos-service-ready-notify": "*"
+  },
+  "devDependencies": {
+    "eyeos-gruntfile": "*",
+    "grunt": "0.4.5",
+    "grunt-init": "0.3.2",
+    "grunt-mocha-test": "0.12.6",
+    "grunt-shell": "1.1.1",
+    "mocha": "2.1.0",
+    "sinon": "1.12.2"
+  }
+}

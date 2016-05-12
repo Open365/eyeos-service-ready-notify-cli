@@ -1,0 +1,8 @@
+{
+  "entryPoint": "./src/cli.js",
+  "output": "./src/cli.js",
+  "unifyIncludeDir": "./src",
+  "unifyExcludeDir": ["./src/test"],
+  "preservePaths": [],
+  "strategy":"backend"
+}
