@@ -34,7 +34,7 @@ RegisterManager.prototype.__getHostName = function (callback) {
 };
 
 RegisterManager.prototype.__getIp = function (callback) {
-	this.__execute('hostname --all-ip-addresses', function (response) {
+	this.__execute('hostname -i', function (response) {
 		var arr = response.split('\n');
 		var ip = '';
 		if(arr[0].indexOf(' ') > -1){
