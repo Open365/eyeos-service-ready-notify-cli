@@ -1,6 +1,6 @@
 {
   "name": "eyeos-service-ready-notify-cli",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "a cli for the same name library",
   "main": "src/cli.js",
   "author": "eyeOS",
